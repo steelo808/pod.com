@@ -1,0 +1,37 @@
+@import "globals.scss";
+@import "variables.scss";
+
+
+
+.content{
+    position:relative;
+    z-index: 999;
+    width:45.7rem;
+    background-color: $grey-blue;
+    padding:5.5rem 4.81rem  0 0;
+}
+
+.content h1{
+    color:$white;
+    margin:0;
+}
+
+.content span {
+    color:$light-green;
+}
+
+.image{
+    position:absolute;
+    right:0;
+    top:7rem;
+    padding-bottom:7rem;
+}
+
+form{
+    padding-bottom:5rem;
+}
+
+
+.logos img{
+    margin-right: 2.3rem;
+}

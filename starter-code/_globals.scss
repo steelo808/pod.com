@@ -1,0 +1,48 @@
+@import "variables.scss";
+
+html{
+    box-sizing: border-box;
+    font-size:100%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+    padding:0;
+    line-height:1.5;
+    font-family:$main-font;
+    background-color:$grey-blue;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight:$font-light;
+    text-transform:uppercase;
+    font-size:$large-font;
+}
+
+p{
+    font-weight:$font-light;
+    color:$light-grey;
+    font-size:$small-font;
+    max-width:27.8rem;
+    margin-bottom:1rem;
+    padding:0;
+}
+
+
+.flex{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.container{
+    max-width:1275px;
+    padding:7rem 0 7rem 7rem;
+    margin:0 auto;
+}
+
+
