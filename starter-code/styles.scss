@@ -23,14 +23,50 @@
 .image{
     position:absolute;
     right:0;
-    top:7rem;
-    padding-bottom:7rem;
+    top:6.5rem;
 }
 
 form{
     padding-bottom:5rem;
+    position:relative;
+        input{
+            width:427px;
+            height:56px;
+            background-color:$dark-grey;
+            border:none;
+            border-radius:60px;
+            padding-left:1.8rem;
+        }
+        button{
+            position:absolute;
+            border-radius:5px;
+            border:none;
+            background-color: $light-green;
+            width:162px;
+            height:46px;
+            border-radius:55px;
+            font-weight: $font-regular;
+            top:5px;
+            left:260px;
+            cursor: pointer;
+
+        }
+        button :hover{
+            background-color:$hover-green;
+            transition:.5 ease 
+        }
 }
 
+button :hover{
+    background-color:$hover-green;
+    transition:.5 ease;
+}
+
+form p{
+    color:$red;
+    font-weight:$font-regular;
+    font-size: $smaller-font;
+}
 
 .logos img{
     margin-right: 2.3rem;
