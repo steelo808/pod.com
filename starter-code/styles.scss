@@ -24,6 +24,18 @@
     position:absolute;
     right:0;
     top:6.5rem;
+
+}
+
+.image-2{
+    position:absolute;
+    top:43rem;
+    right:0;
+}
+
+.image img{
+    width:888px;
+    height:640px;
 }
 
 form{
@@ -36,7 +48,13 @@ form{
             border:none;
             border-radius:60px;
             padding-left:1.8rem;
+            color:$white;
         }
+    
+        input:valid{
+            border-color: green;
+        }
+
         button{
             position:absolute;
             border-radius:5px;
@@ -57,12 +75,9 @@ form{
         }
 }
 
-button :hover{
-    background-color:$hover-green;
-    transition:.5 ease;
-}
 
-form p{
+
+.email-error{
     color:$red;
     font-weight:$font-regular;
     font-size: $smaller-font;
