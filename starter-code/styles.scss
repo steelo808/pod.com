@@ -19,23 +19,34 @@
 .content span {
     color:$light-green;
 }
-
+//host image wrapper
 .image{
     position:absolute;
     right:0;
     top:6.5rem;
-
 }
-
+//
+//patterm dots image
 .image-2{
     position:absolute;
     top:43rem;
     right:0;
 }
+//
 
+//host image 
 .image img{
     width:888px;
     height:640px;
+}
+//
+
+#host-image-desktop{
+    display:block;
+}
+
+#host-image-tablet{
+    display:none;
 }
 
 form{
@@ -86,3 +97,36 @@ form{
 .logos img{
     margin-right: 2.3rem;
 }
+
+//Media query for tablet
+@media screen and (max-width:1156px){
+
+    #host-image-desktop{
+        display:none;
+    }
+
+    #host-image-tablet{
+        display:block;
+    }
+
+    //host image wrapper
+    .image img{
+        width:491px;
+        height:767px;
+    }
+    //
+
+    //pattern dots image
+    .image-2{
+        position:absolute;
+        bottom:0px;
+        left:20px;
+    }
+    //
+
+
+
+
+
+
+    }
