@@ -50,6 +50,10 @@
     display:none;
 }
 
+.form-sm{
+    display:none;
+}
+
 form{
     padding-bottom:5rem;
     position:relative;
@@ -159,14 +163,13 @@ form{
         flex:1;
 
         h1{
-        margin-bottom:1.87rem; 
+        margin-bottom:1rem; 
         font-size:1.625rem;
         }
 
         #main-para{
-        margin-bottom:2rem;
         font-size:0.93rem;
-        margin:0 auto;
+        margin-bottom:2rem;
         }
     }
 
@@ -174,9 +177,12 @@ form{
         display:none;
     }
 
+    .form-lg{
+        display:none;
+    }
     
 
-    form{
+    .form-sm{
         position:initial;
         display: flex;
         flex-direction: column;
@@ -209,7 +215,8 @@ form{
         display:flex;
         justify-content: center;
         width:327px;
-        order:3;
+        order:0;
+        margin-bottom:3rem;
     }
 
     .logos img{
