@@ -133,12 +133,13 @@ form{
 @media screen and(max-width:788px){
 
     body{
-        background:rgba(0,0 ,0, 0.8)url(/assets/mobile/image-host.jpg);
+        background:rgba(18,23,37, 0.95)url(/assets/mobile/image-host.jpg);
         background-position:center;
         background-size:cover;
         background-blend-mode: darken;
         text-align: center;
         margin-bottom:1.87rem;
+    
     }
 
     .container{
@@ -151,10 +152,11 @@ form{
         margin:0 auto;
         padding:0;
         display: flex;
-        flex-direction:column;
+        flex-flow:column;
         align-items: center;
         max-width:327px;
         height:auto;
+        flex:1;
 
         h1{
         margin-bottom:1.87rem; 
@@ -171,6 +173,8 @@ form{
     .image{
         display:none;
     }
+
+    
 
     form{
         position:initial;
@@ -205,11 +209,14 @@ form{
         display:flex;
         justify-content: center;
         width:327px;
+        order:3;
     }
 
     .logos img{
-        margin:0;
-        transform:scale(0.7);
+        transform:scale(0.5);
+        margin-right:0.2rem;
     }
+
+    
 }
 
