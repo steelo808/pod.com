@@ -17,3 +17,6 @@ $small-font:1.125rem;
 //FONT WEIGHTS
 $font-light:300;
 $font-regular:400;
+
+email pattern
+/^[^ ]+@[^ ]+\.[a-z]{2,3}$/
